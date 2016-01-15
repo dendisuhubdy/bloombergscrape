@@ -1,11 +1,11 @@
 # Makefile for examples
 UNAME := $(shell uname)
 
-ifdef IS_64BIT
+#ifdef IS_64BIT
 BITS=64
-else
-BITS=32
-endif
+#else
+#BITS=32
+#endif
 
 BUILD_DIR:=$(UNAME)
 
